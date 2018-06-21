@@ -9,7 +9,7 @@ ul{
 html,body{
     width: 100%;
     height: 100%;
-    background-color: #d8e8fb;
+    background-color: #eaeaea;
     /*overflow: hidden;*/
     font-size: 14px;
 }
@@ -69,16 +69,16 @@ a{
     border-top-color:red;
 }
 .shopList{
-    width: 1200px;
+    width: 1210px;
     margin: 20px auto;
-    display: flex;
-    justify-content:flex-start;
-    flex-flow: row wrap;
+    overflow: auto;
 }
 .shopList li{
-    /*float: left;*/
-    width: 19%;
-    margin:0 0.5% 10px;
+    float: left;
+    width: 232px;
+    padding: 10px;
+    margin-right:10px;
+    margin-bottom: 10px;
     box-sizing:border-box;
     background-color: #fff;
 }
