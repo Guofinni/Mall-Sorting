@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商城</title>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<div class="shop">
+    <div class="header" id="header">
+        <span>排序：</span>
+        <a href="javascript:;" attrName="time">上架时间：
+            <i class="up"></i>
+            <i class="down"></i>
+        </a>
+        <a href="javascript:;" attrName="hot">热度：
+            <i class="up"></i>
+            <i class="down"></i>
+        </a>
+        <a href="javascript:;" attrName="price">价格：
+            <i class="up"></i>
+            <i class="down"></i>
+        </a>
+    </div>
+    <ul class="shopList" id="shopList">
+
+
+        <!--<li>
+            <img src="img/1.jpg" alt="">
+            <p class="title">华为运动蓝牙耳机</p>
+            <p class="hot">热度：1</p>
+            <p><del>$999</del><span>￥99</span></p>
+            <p class="time">上架时间：<span>2018-06-21</span></p>
+        </li>-->
+
+    </ul>
+</div>
+
+<script>
+/*
+    // var str1 = '[{"name":"zhufeng"},{"age":12}]'
+    // console.log(JSON.parse(str1));//==>[{"name":"zhufeng"},{"age":12}]
+
+    var obj = {name:'zhufeng',age:12};
+    //console.log(JSON.stringify(obj));//==>{"name":"zhufeng","age":12}
+
+    var nowObj = JSON.parse(JSON.stringify(obj));
+    nowObj.name = 'china';
+    console.log(obj);
+    console.log(nowObj);
+*/
+/*var date = null;
+var xhr = new XMLHttpRequest();
+xhr.open('get','排序素材/data/product.json',false);
+console.log(xhr.status);
+console.log(xhr.readyState);
+xhr.onreadystatechange = function(){
+    if(xhr.status == 200 && xhr.readyState == 4){
+        //date =xhr.responseText;//请求成功，服务器返回的数据
+        date =JSON.parse(xhr.response);
+    }
+};
+xhr.send(null);
+console.log(date);*/
+
+
+</script>
+<!--<script src="js/index.js"></script>-->
+<!--<script src="js/index1.js"></script>-->
+<script src="js/index2.js"></script>
+</body>
+</html>
